@@ -7,6 +7,10 @@ html {
    scroll-behavior: smooth;
 }
 
+main {
+   background-color:  rgb(12 10 9);
+}
+
 
 .custom-img {
     background-image: url('/corner_coffee_hero.jpg');

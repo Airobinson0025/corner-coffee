@@ -17,8 +17,8 @@ export default function Home() {
       <main>
         <Hero />
         <Shop />
-        <Discover />
-        <Reviews />
+       <Discover />
+       {/* <Reviews /> */}
         
       </main>
    
