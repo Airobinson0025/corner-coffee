@@ -1,9 +1,7 @@
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { TiWeatherSunny } from 'react-icons/ti'
-import { ImCart } from 'react-icons/im'
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
-import { GrClose } from 'react-icons/gr'
 import { motion, AnimatePresence } from 'framer-motion'
 
 const Navbar = () => {
@@ -92,7 +90,7 @@ const Navbar = () => {
 
 
 
-            <ul className='space-y-10 pt-48'>
+            <ul className='space-y-12 pt-48'>
                <li>
                     <Link href='/menu'>Menu</Link>
                 </li>
@@ -105,7 +103,7 @@ const Navbar = () => {
                 <li>
                     <Link href='/contact'>Contact</Link>
                 </li>
-                <p className='font-lora text-lg pt-36'>Developed By Aaron Robinson</p>
+                <p className='font-lora text-lg pt-24'>Developed By Aaron Robinson</p>
                 <p className='font-lora text-lg'>Copyright 2023 ©</p>
             </ul>
         </motion.div> )}

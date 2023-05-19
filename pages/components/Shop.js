@@ -12,15 +12,15 @@ const Shop = () => {
             </div>
         </div>
 
-        <section className='flex flex-col justify-evenly h-[900px] bg-stone-950'>
-            <div className='flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8 px-16 my-8'>
-               <div className='flex items-center justify-center w-[325px] sm:w-[550px] md:w-[350px] h-[250px] md:h-[600px] shop-img bg-cover bg-center rounded-md hover:scale-105 transitoin duration-200'>
+        <section className='flex flex-col justify-evenly h-[900px] bg-stone-950 mt-10 sm:mt-0'>
+            <div className='flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8 px-8 my-8'>
+               <div className='flex items-center justify-center w-[350px] sm:w-[550px] md:w-[350px] h-[250px] md:h-[600px] shop-img bg-cover bg-center rounded-md hover:scale-105 transitoin duration-200'>
                    <h1 className='font-josefin text-[3rem] text-stone-200'>Coffee</h1>
                </div>
-               <div className='flex items-center justify-center w-[325px] sm:w-[550px] md:w-[350px] h-[250px] md:h-[600px] bg-cover bg-center rounded-md shop-img-2 hover:scale-105 transitoin duration-200'>
+               <div className='flex items-center justify-center w-[350px] sm:w-[550px] md:w-[350px] h-[250px] md:h-[600px] bg-cover bg-center rounded-md shop-img-2 hover:scale-105 transitoin duration-200'>
                    <h1 className='font-josefin text-[3rem] text-stone-200'>Pastries</h1>
                </div>
-               <div className='flex items-center justify-center w-[325px] sm:w-[550px] md:w-[350px] h-[250px] md:h-[600px] shop-img-3 bg-cover bg-center rounded-md hover:scale-105 transitoin duration-200'>
+               <div className='flex items-center justify-center w-[350px] sm:w-[550px] md:w-[350px] h-[250px] md:h-[600px] shop-img-3 bg-cover bg-center rounded-md hover:scale-105 transitoin duration-200'>
                    <h1 className='font-josefin text-[3rem] text-stone-200'>Mugs & Cups</h1>
                </div>
             </div>

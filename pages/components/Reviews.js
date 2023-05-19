@@ -31,29 +31,29 @@ const Reviews = () => {
 
 
   return (
-    <div className='flex justify-between h-[980px] bg-[#122620] '>
-        <div className='flex flex-col items-start pt-8 w-3/6 review-img bg-cover bg-center'>
-          <div className='space-y-6 pl-6'>
+    <div className='flex flex-col md:flex-row justify-between h-[1080px] bg-[#122620] mt-24'>
+        <div className='flex flex-col items-start pt-8 review-img bg-cover bg-center px-6'>
+          <div className='space-y-8 '>
             <h1 className='font-poppins text-8xl text-[#B2D2A4]'>Kind</h1>
             <h1 className='font-poppins text-8xl text-[#F4EBD0]'>Words From</h1>
             <h1 className='font-poppins text-8xl text-[#B68D40]'>Our Customers.</h1>
            </div>
         </div>
 
-        <div className='flex flex-col justify-evenly w-3/6 px-8 bg-[#122620]'>
+        <div className='flex flex-col justify-evenly px-8  bg-[#122620] py-8'>
           {reviews.map((review) => (
             <div key='review.id' className='space-y-4'>
-              <h1 className='font-lora text-5xl text-[#F4EBD0]'>{review.name} -</h1>
+              <h1 className='font-lora text-3xl sm:text-5xl text-[#F4EBD0]'>{review.name} -</h1>
                 <div className='flex items-center space-x-2'>
                   <RiStarSFill size={25} color='#B68D40'/>
                   <RiStarSFill size={25} color='#F4EBD0'/>
                   <RiStarSFill size={25} color='#B68D40'/>
                   <RiStarSFill size={25} color='#F4EBD0'/>
                   <RiStarSFill size={25} color='#B68D40'/>
-                  <p className='font-lora text-[#F4EBD0] text-md pl-6'>5.0 Rating</p>
+                  <p className='font-lora text-[#F4EBD0] sm:text-md pl-6'>5.0 Rating</p>
                 </div>
-                <p className='font-poppins text-[#F4EBD0] text-lg'>{review.review}</p>
-                <p className='font-petit text-[#F4EBD0] text-lg'>- {review.company}</p>
+                <p className='font-poppins text-[#F4EBD0] text-md sm:text-lg'>{review.review}</p>
+                <p className='font-petit text-[#F4EBD0] sm:text-lg'>- {review.company}</p>
                 
             </div>
           ))}

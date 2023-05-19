@@ -18,7 +18,7 @@ export default function Home() {
         <Hero />
         <Shop />
        <Discover />
-       {/* <Reviews /> */}
+       <Reviews />
         
       </main>
    
